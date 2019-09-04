@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GulimallSmsApplication {
 
     public static void main(String[] args) {
+
+        System.out.println("GulimallSmsApplication 项目启动");
         SpringApplication.run(GulimallSmsApplication.class, args);
     }
 
